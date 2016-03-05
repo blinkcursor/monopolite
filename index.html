@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Monopolite</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="players">
+      <div class="player player--0">
+        <p class="human">Human</p>
+        <p>Cash: $<span class="js-cash"></span></p>
+      </div>
+      <div class="player player--1">
+        <p class="machine">Machine</p>
+        <p>Cash: $<span class="js-cash"></span></p>
+      </div>
+  </div>
+
+    <div class="board">
+      <div class="sq sq__go"><span class="piece human">H</span><span class="piece machine">M</span></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq sq__chance"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq sq__jail"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq sq__chance"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+      <div class="sq"></div>
+    </div>
+    <h2>Hit any key to trigger move (yours and machine's)</h2>
+    <div class="legend">
+      <h2>Legend</h2>
+      <div class="legend__def sq__go">
+        Pass go collect $200
+      </div>
+      <div class="legend__def sq__chance">
+        Chance. Win/lose $50
+      </div>
+      <div class="legend__def sq__jail">
+        Jail. Miss next turn
+      </div>
+      <div class="legend__def sq__sale">
+        For sale, can buy @ $100.
+      </div>
+    </div>
+      <div class="legend__def sq__human">
+        Owned by human, machine pays $50
+      </div>
+      <div class="legend__def sq__machine">
+        Owned by machine, human pays $50
+      </div>
+    </div>
+
+
+    <script src="js/domready.js"></script>
+</body>
+
+</html>

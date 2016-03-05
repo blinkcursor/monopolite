@@ -1,0 +1,70 @@
+html {
+	background-color: #336;
+}
+body {
+	width: 600px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.board {
+}
+
+.sq {
+	height: 100px;
+	width: 100px;
+	margin: 5px auto;
+	background-color: #eee;
+	border: 10px solid #999;
+}
+
+.legend__def {
+	margin: 5px 0;
+	padding: 1em;
+	border: 10px solid #999;
+}
+
+.sq__go {
+	border-color: orange;
+}
+.sq__chance {
+	border-color: cyan;
+}
+.sq__jail {
+	border-color: purple;
+}
+.sq__sale {
+
+}
+.sq__human {
+	border-color: red;
+}
+.sq__machine {
+	border-color: blue;
+}
+
+.players {
+	position: relative;
+}
+.player {
+	font-size: 200%;
+	position: absolute;
+	left: 0;
+	text-align: center;
+}
+.player:last-child {
+	left: auto;
+	right: 0;
+}
+
+.piece {
+	font-size: 200%;
+	padding: 10px;
+	color: #336;
+}
+.human {
+	color: red;
+}
+.machine {
+	color: blue;
+}
