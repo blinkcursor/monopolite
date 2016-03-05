@@ -29,6 +29,8 @@
 			this.bindEvents();
 
 			this.render();
+
+			alert("Press any key to trigger each player's moves. Use browser console for move descriptions");
 		},
 
 		cacheDom: function() {
